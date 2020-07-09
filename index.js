@@ -1,6 +1,8 @@
 // array of questions for user
 const questions = [
-
+'question1',
+'question2',
+'question3'
 ];
 
 // function to write README file
