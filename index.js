@@ -60,3 +60,7 @@ const questions = [
         },
 ];
 
+//Prompts user for answers and returns key value pairs for the answers
+function promptUser() {
+    return inquirer.prompt(questions)
+};
