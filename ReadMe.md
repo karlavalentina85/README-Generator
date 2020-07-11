@@ -1,5 +1,7 @@
 # Readme- Generator
 
+![Screen Shot 2020-07-11 at 6 30 28 PM](https://user-images.githubusercontent.com/63941758/87235772-38e87500-c3a5-11ea-836a-bb9ab477011d.JPG)
+
 ## Description
 A command-line application that dynamically generates a professional README.md from a user's input using the Inquirer package.
 
