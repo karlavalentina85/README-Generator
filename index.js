@@ -11,21 +11,21 @@ const questions = [
         },
         {
         type: "input",
-        message: "What is the title of your project?",
+        message: "What is the Project Title?",
         name: "title",
-        default: "Enter project title here."
+        default: "Please, enter project title."
         },
         {
         type: "input",
         message: "Describe your project.",
         name: "description",
-        default: "Enter project description here."
+        default: "Enter project description."
         },
         {
         type: "input",
-        message: "How do users install your project?",
+        message: "What are the installation instructions",
         name: "installation",
-        default: "Enter installation instructions here."
+        default: "Enter installation instructions."
         },
         {
         type: "input",
@@ -35,28 +35,28 @@ const questions = [
         },
         {
         type: "input",
-        message: "What are the guidelines for contributing to your project?",
+        message: "Contribution guidelines?",
         name: "contributing",
-        default: "Enter contribution guidelines here."
+        default: "Enter contribution guidelines."
         },
         {
         type: "input",
-        message: "How should tests be run on your project?",
+        message: "How do you test your project?",
         name: "testing",
-        default: "Enter testing instructions here."
+        default: "Enter testing instructions."
         },
         {
         type: "list",
-        message: "What type of license is this project covered under?",
-        choices: ["MIT", "GPL v3", "Mozilla", "Unilicense", "WTFPL"],
+        message: "License Type?",
+        choices: ["GPL v3", "MIT", "Unilicense","Mozilla", "WTFPL"],
         name: "license",
         default: "MIT"
         },
         {
         type: "input",
-        message: "What is your email address?",
+        message: "What is your e-mail address?",
         name: "questions",
-        default: "ENTER EMAIL ADDRESS HERE"
+        default: "Please enter your e-mail address"
         },
 ];
 
