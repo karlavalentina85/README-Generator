@@ -117,3 +117,23 @@ You may email me at ${data.questions} with additional questions.
 `
 ;
 }
+//function that controls what happens in this readMe generator
+async function init() {
+    try {
+      const answers = await promptUser();
+    
+      const readMe = await generateMarkdown(answers);
+    
+      fs.writeFile('ReadMe.md', readMe, function(err, result) {
+        if(err) console.log('error', err);
+      });
+    
+      console.log("Successfully wrote to ReadMe.md");
+    } catch(err) {
+      console.log(err);
+    }
+    }
+    
+    // function call to initialize program
+    init();
+    
