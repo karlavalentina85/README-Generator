@@ -29,7 +29,8 @@ None
 ## Tests
 Please add the testing instructions.
 
-<iframe src="https://drive.google.com/file/d/1pPMz0qJwbEtk7_my7bWKoHtWYkSDATrO/preview" width="640" height="480"></iframe>
+Link to video demonstration:
+https://drive.google.com/file/d/1pPMz0qJwbEtk7_my7bWKoHtWYkSDATrO/view
 
 ## Questions 
 GitHub Profile: [karlavalentina85](http://github.com/karlavalentina85)
